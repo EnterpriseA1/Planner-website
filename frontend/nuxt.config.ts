@@ -1,12 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import tailwindcss from "@tailwindcss/vite";
 export default defineNuxtConfig({
-  compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  css: ['./app/assets/css/main.css'],
-  vite: { // <-- Add this whole section
-    plugins: [
-      tailwindcss(),
-    ],
-  },
+
+  // Path ที่ถูกต้อง
+  css: ['~/assets/css/main.css'],
+
+  // Module ที่ติดตั้ง
+  modules: ["@nuxtjs/tailwindcss"]
 })
