@@ -10,7 +10,7 @@
           <NuxtLink to="/schedule" class="text-gray-600 hover:text-blue-600 transition-colors">
             ตารางเรียน
           </NuxtLink>
-          <NuxtLink to="/tasks" class="text-gray-600 hover:text-blue-600 transition-colors">
+          <NuxtLink to="/task" class="text-gray-600 hover:text-blue-600 transition-colors">
             การบ้าน
           </NuxtLink>
           <NuxtLink to="/goals" class="text-gray-600 hover:text-blue-600 transition-colors">
