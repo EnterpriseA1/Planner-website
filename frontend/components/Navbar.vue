@@ -1,12 +1,12 @@
 <template>
   <header class="bg-white shadow-sm sticky top-0 z-50">
     <nav class="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center justify-between h-16">
-        <NuxtLink to="/" class="flex items-center gap-2">
-          <span class="text-xl font-bold text-blue-600">🎓 UniLife Planner</span>
+      <div class="flex items-center justify-end  h-16 ">
+        <NuxtLink to="/" class="flex items-center gap-2 ">
+          <span class="text-xl font-bold text-blue-600 ">🎓 UniLife Planner</span>
         </NuxtLink>
 
-        <div class="hidden md:flex items-center space-x-8">
+        <div class="hidden md:flex items-center space-x-8 ml-20 mr-auto">
           <NuxtLink to="/schedule" class="text-gray-600 hover:text-blue-600 transition-colors">
             ตารางเรียน
           </NuxtLink>

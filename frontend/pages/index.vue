@@ -7,7 +7,6 @@
       <p class="mt-4 max-w-2xl text-lg text-gray-500">
         UniLife Planner คือเครื่องมือที่จะช่วยคุณจัดระเบียบตารางเรียน, การบ้าน, และเป้าหมายส่วนตัว ทั้งหมดในที่เดียว เพื่อให้คุณโฟกัสกับสิ่งที่สำคัญที่สุดได้
       </p>
-
       <div class="mt-8 flex flex-wrap justify-center gap-4">
         <NuxtLink
           to="/register"
